@@ -11,8 +11,8 @@ spec:
     targetRevision: 5.27.5
     helm:
       releaseName: argocd
-    valueFiles:
-    - values.yml
+      valueFiles:
+      - values.yml
   destination:
     server: "https://kubernetes.default.svc"
     namespace: argocd
